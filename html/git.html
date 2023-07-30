@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Основы Git</title>
@@ -26,7 +26,6 @@
         <url>
             <directory></directory>
         </url>
-    </b>
     </p>
     <p>
         Эта команда клонирует репозиторий в новую директорию.&nbsp;
@@ -35,33 +34,15 @@
         <code> git config</code> — это удобная функция, которая используется для настройки значений конфигурации Git на
         глобальном и локальном уровнях проекта. Примеры команд:
     </p>
-    <p>
-        <code> git config --local user.name "Name"</code>
-    </p>
-    <p>
-        <code>git config --local user.email "<a href="mailto:your_email@example.com">your_email@example.com</a>"</code>
-    </p>
-    <p>
-        <code> &nbsp;git config --global user.name "Name"</code>
-    </p>
-    <p>
-        <code> &nbsp;git config --global user.email "<a href="mailto:your_email@example.com">your_email@example.com</a>"</code>
-    </p>
+    <p><code> git config --local user.name "Name"</code></p>
+    <p><code>git config --local user.email "<a href="mailto:your_email@example.com">your_email@example.com</a>"</code></p>
+    <p><code> &nbsp;git config --global user.name "Name"</code></p>
+    <p><code> &nbsp;git config --global user.email "<a href="mailto:your_email@example.com">your_email@example.com</a>"</code></p>
     <br>
-    <p>
-        Если надо скопировать только файлы:
-    </p>
-    <p>
-        <code> git clone --depth=1 git://someserver/somerepo dirformynewrepo </code>
-    </p>
-    <code> </code>
-    <p>
-        <code>
-            rm -rf !$/.git</code>
-    </p>
-    <p>
-        <br>
-    </p>
+    <p>Если надо скопировать только файлы:</p>
+    <p><code> git clone --depth=1 git://someserver/somerepo dirformynewrepo </code></p>
+    <p><code>rm -rf !$/.git</code></p>
+    <br>
     <p>
         3. <b class="red" style="color:red">git remote add
         <repository>
@@ -69,60 +50,26 @@
         </repository>
     </b>
     </p>
-    <p>
-        Пример: <code>git remote add origin <a
-            href="https://github.com/MrKrishnaAgarwal/Git-CheatSheet.git?roistat_visit=2927050">https://github.com/MrKrishnaAgarwal/Git-CheatSheet.git</a></code>
-    </p>
-    <p>
-        Эта команда используется для добавления или подключения к удаленному репозиторию.
-    </p>
+    <p>Пример: <code>git remote add origin</code>
+    <a href="https://github.com/MrKrishnaAgarwal/Git-CheatSheet.git?roistat_visit=2927050">Репозиторий гитхаб</a></p>
+    
+    <p>Эта команда используется для добавления или подключения к удаленному репозиторию.</p>
     <br>
-    <p>
-        4. <b class="red" style="color:red">git remote -v</b>
-    </p>
-    <p>
-        Эта команда используется для просмотра подключенных удаленных репозиториев.
-    </p>
+    <p>4. <b class="red" style="color:red">git remote -v</b></p>
+    <p>Эта команда используется для просмотра подключенных удаленных репозиториев.</p>
     <br>
-    <p>
-        5. <b class="red" style="color:red">git statuses</b>
-    </p>
-    <p>
-        Эта команда используется для просмотра статуса файлов в вашем локальном репозитории. Отслеживаются ли файлы? Не
-        отслеживается? Изменены ли они?
-    </p>
+    <p>5. <b class="red" style="color:red">git statuses</b></p>
+    <p>Эта команда используется для просмотра статуса файлов в вашем локальном репозитории. Отслеживаются ли файлы? Не отслеживается? Изменены ли они?</p>
     <br>
-    <p>
-        6. <b class="red" style="color:red">git add </b>
-    </p>
-    <b> </b>
-    <p>
-        Пример:<code> git add index.html</code>
-    </p>
-    <p>
-        <code>git add index.html style.css </code>style.scss
-    </p>
-    <p>
-        Эта команда переносит все старые и измененные файлы в раздел добавленных файлов
-    </p>
-    <p>
-        <code> git add -A</code>
-    </p>
-    <p>
-        -
-    </p>
-    <p>
-        <code>git add
-            <filename></filename>
-        </code>
-    </p>
-    <p>
-        для конкретного файла
-    </p>
+    <p>6. <b class="red" style="color:red">git add </b></p>
+    <p>Пример:<code> git add index.html</code></p>
+    <p><code>git add index.html style.css</code></p>
+    <p>Эта команда переносит все старые и измененные файлы в раздел добавленных файлов</p>
+    <p><code> git add -A</code></p>
+    <p><code>git add<filename>test123</filename></code></p>
+    <p>для конкретного файла</p>
     <br>
-    <p>
-        7.<b class="red" style="color:red"> git reset</b>
-    </p>
+    <p>7.<b class="red" style="color:red"> git reset</b></p>
     <p>
         Эта команда используется для мягкой или жёсткой отмены изменений, позволяет сбросить состояние проекта до
         нужного коммита. Например.&nbsp;
