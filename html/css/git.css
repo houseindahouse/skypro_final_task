@@ -1,30 +1,36 @@
-.logo {
-	 float: left;
+body {
+    font-size: 24px;
 }
- nav {
-	 float: right;
+.green {
+    color: green;
 }
- nav ul {
-	 margin: 0;
-	 padding: 0;
-	 list-style: none;
+.red {
+    color: red;
 }
- nav li {
-	 display: inline-block;
+.blue {
+    color: blue;
 }
- body {
-	 background: #000000;
-	 color: #fff;
+li.green {
+    color: green;
 }
- a {
-	 color: #808000
+li.red {
+    color: red;
 }
- h1 {
-	 color: #008080
+li.blue {
+    color: blue;
 }
- p {
-	 color: #008000
+ul ol li.red {
+    color: red;
 }
- ol {
-	 color: #008000
+ul ol li.green {
+    color: green;
+}
+ul ol li.blue {
+    color: blue;
+}
+p.italic {
+    font-weight: italic;
+}
+p.bold {
+    font-style: bold;
 }
