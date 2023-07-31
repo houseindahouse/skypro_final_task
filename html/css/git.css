@@ -1,36 +1,30 @@
-body {
-    font-size: 24px;
+.logo {
+	 float: left;
 }
-.green {
-    color: blue;
+ nav {
+	 float: right;
 }
-.red {
-    color: green;
+ nav ul {
+	 margin: 0;
+	 padding: 0;
+	 list-style: none;
 }
-.blue {
-    color: red;
+ nav li {
+	 display: inline-block;
 }
-li.green {
-    color: red;
+ body {
+	 background: #000000;
+	 color: #fff;
 }
-li.red {
-    color: blue;
+ a {
+	 color: #808000
 }
-li.blue {
-    color: green;
+ h1 {
+	 color: #008080
 }
-ul ol li.red {
-    color: cyan;
+ p {
+	 color: #008000
 }
-ul ol li.green {
-    color: orange;
-}
-ul ol li.blue {
-    color: magenta;
-}
-p.italic {
-    font-weight: italic;
-}
-p.bold {
-    font-style: bold;
+ ol {
+	 color: #008000
 }
